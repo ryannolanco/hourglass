@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.item {
+  font-size: 300px;
+}
+
+
+.midday {
+  background-color: lightgoldenrodyellow;
+}
+
+.midnight {
+  background-color: midnightblue;
+}
+
+.morning {
+  background-color: pink;
+}
+
+.evening {
+  background-color: lightsalmon;
+}
