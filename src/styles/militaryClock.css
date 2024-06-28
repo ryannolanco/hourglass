@@ -1,14 +1,33 @@
-.container {
+.center-all {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px;
+  background-color: lightgoldenrodyellow;
 }
 
-.item {
-  font-size: 300px;
+.image-container {
+  position: relative;
+  display: inline-block;
 }
 
+.image-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2000px;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  font-size: 200px;
+  top: 30%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);  
+  color: black; 
+  padding: 10px 20px; 
+  text-align: center;
+}
 
 .midday {
   background-color: lightgoldenrodyellow;

@@ -1,4 +1,6 @@
-import "../styles/militaryClock.css"
+import '../styles/militaryClock.css';
+//import sun from '../imgs/sun.jpg';
+import sunrise from '../imgs/sunrise.jpg';
 
 import Navigation from './Navigation';
 import React, { useState, useEffect } from 'react';
@@ -18,8 +20,11 @@ const MilitaryClock = () => {
 		<div>
 			<Navigation />
 			<h1>Military Clock</h1>
-			<div className="container">
-				<p className="item">{date.toLocaleTimeString('en-GB')}</p>
+			<div className='center-all'>
+				<div className="image-container">
+					<img src={sunrise} />
+					<p className="overlay-text">{date.toLocaleTimeString('en-GB')}</p>
+				</div>
 			</div>
 		</div>
 	);
