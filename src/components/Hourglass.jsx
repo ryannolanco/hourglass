@@ -1,4 +1,6 @@
-import Navigation from "./Navigation";
+import Navigation from './Navigation';
+
+import '../styles/App.css';
 // import React from "react";
 
 // function make2DArray(cols, rows) {
@@ -20,8 +22,10 @@ import Navigation from "./Navigation";
 const Hourglass = () => {
 	return (
 		<div>
-			<h1>Hourglass</h1>
-			<Navigation/>
+			<div className='navbar'>
+				<h1>Hourglass</h1>
+				<Navigation />
+			</div>
 		</div>
 	);
 };

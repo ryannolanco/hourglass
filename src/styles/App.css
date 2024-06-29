@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: blueviolet;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin-left: 50px;
+}

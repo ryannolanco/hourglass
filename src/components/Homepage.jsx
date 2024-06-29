@@ -1,11 +1,12 @@
-import Navigation from "./Navigation";
-
+import Navigation from './Navigation';
 
 const HomePage = () => {
 	return (
 		<div>
-			<h1>Homepage</h1>
-			<Navigation/>
+			<div className="navbar">
+				<h1>Homepage</h1>
+				<Navigation />
+			</div>
 		</div>
 	);
 };

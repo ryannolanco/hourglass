@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.item {
+  margin: 10px;
+}
