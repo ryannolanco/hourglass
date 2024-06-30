@@ -23,7 +23,6 @@ const Hourglass = () => {
 	return (
 		<div>
 			<div className='navbar'>
-				<h1>Hourglass</h1>
 				<Navigation />
 			</div>
 		</div>

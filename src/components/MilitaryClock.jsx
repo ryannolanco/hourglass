@@ -20,14 +20,13 @@ const MilitaryClock = () => {
 	return (
 		<div>
 			<nav className="navbar">
-				<h1>Military Clock</h1>
 				<Navigation />
 			</nav>
 			<div className="center-all">
-				<div className="image-container">
-					<img src={sunrise} />
+				{/* <div className="image-container"> */}
+					{/* <img src={sunrise} /> */}
 					<p className="overlay-text">{date.toLocaleTimeString('en-GB')}</p>
-				</div>
+				{/* </div> */}
 			</div>
 		</div>
 	);

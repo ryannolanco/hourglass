@@ -1,10 +1,10 @@
 import Navigation from './Navigation';
+import '../styles/App.css';
 
 const HomePage = () => {
 	return (
 		<div>
 			<div className="navbar">
-				<h1>Homepage</h1>
 				<Navigation />
 			</div>
 		</div>

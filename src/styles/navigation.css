@@ -1,10 +1,29 @@
-.navigation {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0px;
-  padding: 0px;
+.navlinks {
+  margin-right: 10px;
 }
 
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.bg-img {
+  background-image: url('../imgs/clouds.jpg');
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 ul {
   display: flex;
